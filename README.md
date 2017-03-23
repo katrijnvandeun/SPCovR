@@ -25,13 +25,13 @@ Match the D0 and D3 data and obtain the difference scores using MATLAB and stand
  ScriptHAI_TIVD28vsD0_2008.m creates TIVtiter.m and TIVtiter.txt
 
 2. ANALYZE DATA + POST-PROCESS RESULTS
-  1. SPLS (for comparison) using R and the packages SGCCA and SPLS; also includes trying out SPCR (gives out-of-memory)
+  SPLS (for comparison) using R and the packages SGCCA and SPLS; also includes trying out SPCR (gives out-of-memory)
   Script_sgcca_spls.R
-  2. Ordinary PCovR analysis using MATLAB and creation of the Figures 1 & 2 in the paper
+  Ordinary PCovR analysis using MATLAB and creation of the Figures 1 & 2 in the paper
   plot_PCovR.m: this script requires two external matlab functions: fig.m and exportfig.m
 	Available from: http://www.mathworks.com/matlabcentral/fileexchange/30736 and
 	https://nl.mathworks.com/matlabcentral/fileexchange/727-exportfig
-  3. Sparse PCovR using MATLAB
+  Sparse PCovR using MATLAB
   Script_SPCovRanalysis.m: Calls different function that implement algorithm 1 and algorithm 2
 
 
