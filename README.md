@@ -25,6 +25,7 @@ Match the D0 and D3 data and obtain the difference scores using MATLAB and stand
  ScriptHAI_TIVD28vsD0_2008.m creates TIVtiter.m and TIVtiter.txt
 
 2. ANALYZE DATA + POST-PROCESS RESULTS
+
   SPLS (for comparison) using R and the packages SGCCA and SPLS; also includes trying out SPCR (gives out-of-memory)
   Script_sgcca_spls.R
   Ordinary PCovR analysis using MATLAB and creation of the Figures 1 & 2 in the paper
@@ -36,6 +37,7 @@ Match the D0 and D3 data and obtain the difference scores using MATLAB and stand
 
 
 3. ANNOTATION OF SELECTED PROBE SETS
+
 Annotate the probe-sets with non-zero weights resulting from SPCovR and SGCCA, SPLS
 For SGCCA and SPLS: use GENEIDS_spls.txt and GENEIDS_sgcca.txt as input to AmiGO: http://amigo.geneontology.org/amigo
 For SPCovR, retrieve the AFFYIDS and convert these to the official gene symbols using DAVID (as the annotation
