@@ -8,7 +8,7 @@ Van Deun, K., Crompvoets, E.A.V., & Ceulemans, E. (2017). Sparse principal covar
 
 To reproduce the analysis of the influenza data discussed in the paper, follow the following steps.
 
-1. CREATE DATA
+##1. CREATE DATA
   
 -Gene expression data: Run the R script R/RSCRIPT_TIV_RMA.R. This retrieves the expression data from the online database and creates RMA pre-processed expression matrices for both seasons. The resulting pre-processed gene expression data are stored in DATA/TIVRMA.txt (2008 season) and DATA/TIVRMA_2007.txt (2007 season).
 -Antibody titers: To recreate the data files DATA/TIVtiters.txt & DATA/TIVtiters_2007.txt take the following steps:
@@ -24,7 +24,7 @@ Match the D0 and D3 data and obtain the difference scores using MATLAB and stand
  Script_TIVD3vsD0_2008.m creates TIVD3_rev.mat and TIVD3_rev.txt
  ScriptHAI_TIVD28vsD0_2008.m creates TIVtiter.m and TIVtiter.txt
 
-2. ANALYZE DATA + POST-PROCESS RESULTS
+##2. ANALYZE DATA + POST-PROCESS RESULTS
 
 -SPLS (for comparison) using R and the packages SGCCA and SPLS; also includes trying out SPCR (gives out-of-memory)
   Script_sgcca_spls.R
@@ -36,7 +36,7 @@ Match the D0 and D3 data and obtain the difference scores using MATLAB and stand
   Script_SPCovRanalysis.m: Calls different function that implement algorithm 1 and algorithm 2
 
 
-3. ANNOTATION OF SELECTED PROBE SETS
+##3. ANNOTATION OF SELECTED PROBE SETS
 
 Annotate the probe-sets with non-zero weights resulting from SPCovR and SGCCA, SPLS
 -For SGCCA and SPLS: use GENEIDS_spls.txt and GENEIDS_sgcca.txt as input to AmiGO: http://amigo.geneontology.org/amigo
