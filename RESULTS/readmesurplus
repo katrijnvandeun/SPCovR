@@ -1,1 +1,6 @@
 
+Results folder
+
+This folder includes the probability matrices we obtained in the stability selection procedure; the first 38 are used to find the
+stable 418 non-zero coefficients. The official gene symbols associated to the selected probe sets for spcovr as well as spls are 
+included too.
