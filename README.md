@@ -10,7 +10,7 @@ To reproduce the analysis of the influenza data discussed in the paper, follow t
 
 1. CREATE DATA
   
-Gene expression data: Run the R script R/RSCRIPT_TIV_RMA.R. This retrieves the expression data from the online database and creates RMA pre-processed expression matrices for both seasons. The resulting pre-processed gene expression data are stored in DATA/TIVRMA.txt (2008 season) and DATA/TIVRMA_2007.txt (2007 season)
+Gene expression data: Run the R script R/RSCRIPT_TIV_RMA.R. This retrieves the expression data from the online database and creates RMA pre-processed expression matrices for both seasons. The resulting pre-processed gene expression data are stored in DATA/TIVRMA.txt (2008 season) and DATA/TIVRMA_2007.txt (2007 season).\\
 Antibody titers: To recreate the data files DATA/TIVtiters.txt & DATA/TIVtiters_2007.txt take the following steps:
  download the GSE29614_series_matrix.txt from https://www.ncbi.nlm.nih.gov/geo/ and copy the lines 45-50 into the data file
  download GSE29617_series_matrix.txt from https://www.ncbi.nlm.nih.gov/geo/ and copy the lines 45-50 into the data file
