@@ -24,25 +24,24 @@ Because we use the baseline-corrected gene expression data obtained three days a
   * ScriptHAI_TIVD28vsD0_2007.m creates TIVtiter2007.m and TIVtiter2007.txt  
   
  b. 2008 sample  
-  * Script_TIVD3vsD0_2008.m creates TIVD3_rev.mat and TIVD3_rev.txt
-  * ScriptHAI_TIVD28vsD0_2008.m creates TIVtiter.m and TIVtiter.txt
+  * MATLAB/Script_TIVD3vsD0_2008.m creates DATA/TIVD3_rev.mat and DATA/TIVD3_rev.txt
+  * MATLAB/ScriptHAI_TIVD28vsD0_2008.m creates DATA/TIVtiter.m and DATA/TIVtiter.txt
 
 ## 2. ANALYZE DATA + POST-PROCESS RESULTS
 
-1. SPLS (for comparison) using R and the packages SGCCA and SPLS; also includes trying out SPCR (gives out-of-memory)
-  Script_sgcca_spls.R
-2. Ordinary PCovR analysis using MATLAB and creation of the Figures 1 & 2 in the paper
-  plot_PCovR.m: this script requires two external matlab functions: fig.m and exportfig.m
+1. SPLS (for comparison) using R and the packages SGCCA and SPLS; also includes trying out SPCR (gives out-of-memory)  
+  *R/Script_sgcca_spls.R*
+2. Ordinary PCovR analysis using MATLAB and creation of the Figures 1 & 2 in the paper  
+  *MATLAB/plot_PCovR.m*: this script requires two external matlab functions: fig.m and exportfig.m
 	Available from: http://www.mathworks.com/matlabcentral/fileexchange/30736 and
 	https://nl.mathworks.com/matlabcentral/fileexchange/727-exportfig
-3. Sparse PCovR using MATLAB
-  Script_SPCovRanalysis.m: Calls different function that implement Algorithm 1 and Algorithm 2.
+3. Sparse PCovR using MATLAB  
+  *MATLAB/Script_SPCovRanalysis.m*: Calls different function that implement Algorithm 1 and Algorithm 2.
 
 
 ## 3. ANNOTATION OF SELECTED PROBE SETS
 
 Annotate the probe-sets with non-zero weights resulting from SPCovR and SGCCA, SPLS
-  * For SGCCA and SPLS: use GENEIDS_spls.txt and GENEIDS_sgcca.txt as input to AmiGO: http://amigo.geneontology.org/amigo
-  * For SPCovR, retrieve the AFFYIDS and convert these to the official gene symbols using DAVID (as the annotation
-file included in the data folder may be outdated): https://david.ncifcrf.gov/. 
+  * For SGCCA and SPLS: use DATA/GENEIDS_spls.txt and DATA/GENEIDS_sgcca.txt as input to AmiGO: http://amigo.geneontology.org/amigo
+  * For SPCovR, retrieve the AFFYIDS within MATLAB/Script_SPCovRanalysis.m and convert these to the official gene symbols using DAVID (as the annotation file included in the data folder may be outdated): https://david.ncifcrf.gov/. 
 Next submit the official gene symbols to AmiGO.
