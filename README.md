@@ -36,7 +36,7 @@ Because we use the baseline-corrected gene expression data obtained three days a
 	Available from: http://www.mathworks.com/matlabcentral/fileexchange/30736 and
 	https://nl.mathworks.com/matlabcentral/fileexchange/727-exportfig
 3. Sparse PCovR using MATLAB
-  Script_SPCovRanalysis.m: Calls different function that implement algorithm 1 and algorithm 2
+  Script_SPCovRanalysis.m: Calls different function that implement Algorithm 1 and Algorithm 2.
 
 
 ## 3. ANNOTATION OF SELECTED PROBE SETS
