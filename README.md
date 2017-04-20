@@ -20,8 +20,8 @@ These files contain the antibody titers for three influenza strains and measured
 Because we use the baseline-corrected gene expression data obtained three days after vaccination, the day 0 and day 3 data have to be matched on their subject identifiers and the difference scores have to be calculated. These difference scores are standardized (=centering + scaling to unit variance) per variable. To reproduce these steps, run the following MATLAB scripts.  
 
  a. 2007 sample  
-  * Script_TIVD3vsD0_2007.m creates TIVD3_2007_rev.mat and TIVD3_2007_rev.txt
-  * ScriptHAI_TIVD28vsD0_2007.m creates TIVtiter2007.m and TIVtiter2007.txt  
+  * MATLAB/Script_TIVD3vsD0_2007.m creates TIVD3_2007_rev.mat and TIVD3_2007_rev.txt
+  * MATLAB/ScriptHAI_TIVD28vsD0_2007.m creates TIVtiter2007.m and TIVtiter2007.txt  
   
  b. 2008 sample  
   * MATLAB/Script_TIVD3vsD0_2008.m creates DATA/TIVD3_rev.mat and DATA/TIVD3_rev.txt
