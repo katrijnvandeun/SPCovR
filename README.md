@@ -42,6 +42,6 @@ Because we use the baseline-corrected gene expression data obtained three days a
 ## 3. ANNOTATION OF SELECTED PROBE SETS
 
 Annotate the probe-sets with non-zero weights resulting from SPCovR and SGCCA, SPLS
-  * For SGCCA and SPLS: use DATA/GENEIDS_spls.txt and DATA/GENEIDS_sgcca.txt as input to AmiGO: http://amigo.geneontology.org/amigo
-  * For SPCovR, retrieve the AFFYIDS within MATLAB/Script_SPCovRanalysis.m and convert these to the official gene symbols using DAVID (as the annotation file included in the data folder may be outdated): https://david.ncifcrf.gov/. 
+  * For SGCCA and SPLS: use *DATA/GENEIDS_spls.txt* and *DATA/GENEIDS_sgcca.txt* as input to AmiGO: http://amigo.geneontology.org/amigo
+  * For SPCovR, retrieve the AFFYIDS within *MATLAB/Script_SPCovRanalysis.m* (see the bottom of this file) and convert these to the official gene symbols using DAVID (as the annotation file included in the data folder may be outdated): https://david.ncifcrf.gov/. 
 Next submit the official gene symbols to AmiGO.
