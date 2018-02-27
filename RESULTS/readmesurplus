@@ -9,3 +9,5 @@ non-zero weights on the second SPCovR component was copied together with the SGC
 overlap. Annotation of the genes in the overlap and the genes belonging exclusively to the SPCovR component were performed with PANTHER.
 Screen shots of the output resulting from annotating the gene lists (corresponding to the non-zero weights) with PANTHER and from performing 
 an enrichment analysis on the loadings with PANTHER and GSEA, are organized in the pdf (Annotation sparse PCovR and sparse PLS with Panther and GSEA.pdf).
+Files containing the official gene symbols together with the loadings for input to PANTHER (.txt) and to GSEA (.rnk) can also be found in this
+folder.
