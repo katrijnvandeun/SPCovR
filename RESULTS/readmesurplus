@@ -11,3 +11,6 @@ Screen shots of the output resulting from annotating the gene lists (correspondi
 an enrichment analysis on the loadings with PANTHER and GSEA, are organized in the pdf (Annotation sparse PCovR and sparse PLS with Panther and GSEA.pdf).
 Files containing the official gene symbols together with the loadings for input to PANTHER (.txt) and to GSEA (.rnk) can also be found in this
 folder.
+And finally, this folder also includes the results from the SPCovR analysis on the simulated data. These were separated over three files
+where each file (performance_a.txt, performance_b.txt, performance_c.txt) corresponds to a particular value of the alpha weighting parameter
+in the SPCovR analyses.
