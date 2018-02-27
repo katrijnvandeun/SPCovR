@@ -1,6 +1,9 @@
 
 Results folder
 
-This folder includes the probability matrices we obtained in the stability selection procedure; the first 38 are used to find the
-stable 418 non-zero coefficients. The official gene symbols associated to the selected probe sets for spcovr as well as spls are 
-included too.
+This folder includes the probability matrices we obtained in the stability selection procedure; the first 38 were used to find the
+stable 418 non-zero coefficients. The official gene symbols associated to the selected probe sets for spcovr as well as sgcca are 
+included too, both as separate lists and merged in a single excel file (SPCovR_SPLS_Symbols_ABSWeights.xlsx). The merged list contains the 
+absolute value of the weights, such that the sorted list singles out zero from non-zero coefficients. The part of the list relating to the 
+non-zero weights on the second SPCovR component was copied together with the SGCCA weights in order to count the number of genes in the 
+overlap. Annotation of the genes in the overlap and the genes belonging exclusively to the SPCovR component were performed with PANTHER.
