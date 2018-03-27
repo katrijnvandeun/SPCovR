@@ -4,7 +4,7 @@
 This repository contains 1) scripts and data to reproduce the analyses described in the paper and 2) the MATLAB implementation of the sparse Principal Covariates regression procedure (Algorithm 1), including stability selection (Algorithm 2).
 
 Reference:
-Van Deun, K., Crompvoets, E.A.V., & Ceulemans, E. (2017). Sparse principal covariates regression. Manuscript submitted for publication.
+Van Deun, K., Crompvoets, E.A.V., & Ceulemans, E. (2018). Obtaining insights from high-dimensional data: Sparse principal covariates regression. BMC Bioinformatics, 19:104. https://doi.org/10.1186/s12859-018-2114-5.
 
 To reproduce the analysis of the influenza data discussed in the paper, take the following steps.
 
